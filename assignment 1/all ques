@@ -1,0 +1,60 @@
+/*//*********sum of two num*******
+#include <iostream>
+using namespace std;
+
+int main()
+{   int a, b;
+    cout<<"enter a & b- ";
+    cin>>a>>b;
+    cout<<"sum= "<<a+b;
+}
+*/
+
+
+/*
+//swap ques 8
+#include <iostream>
+using namespace std;
+
+int main()
+{   int a, b,temp;
+    cout<<"enter a & b- ";
+    cin>>a>>b;
+    a=a^b;
+    b=a^b;
+    a=a^b;
+    cout<<"a= "<<a<<"  b "<<b;
+}
+*/
+
+/*
+//*****max of two num**********
+#include <iostream>
+using namespace std;
+
+int main()
+{   int a, b;
+    cout<<"enter a & b- ";
+    cin>>a>>b;
+    a>b?cout<<"a is greater - "<<a: cout<<"b is greater - "<<b;
+}
+
+*/
+
+
+//*******10. Write a C++ program to add all the numbers of an array of size 10.*********
+#include <iostream>
+using namespace std;
+
+int main()
+{   int a[10], sum=0, inp;
+    cout<<"enter 10 num- ";
+    for(int i=0; i<10; i++)
+    {
+       cin>>a[i];
+       sum+=a[i];
+    }
+    cout<<"sum = "<<sum;
+}
+
+
